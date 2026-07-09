@@ -1,0 +1,19 @@
+.vp-doc figure {
+  margin: 28px 0 40px;
+}
+
+.vp-doc figure img {
+  display: block;
+  margin: 0 auto;
+}
+
+.vp-doc figcaption {
+  margin-top: 14px;
+  color: var(--vp-c-text-2);
+  font-size: 0.95em;
+  line-height: 1.6;
+}
+
+.vp-doc figure + figure {
+  margin-top: 44px;
+}

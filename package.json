@@ -1,0 +1,26 @@
+{
+  "name": "perfect-clicker-fitting-guide",
+  "version": "0.0.0",
+  "private": true,
+  "description": "A practical guide to tuning 3D printed clicker fits with Bambu Studio.",
+  "type": "module",
+  "scripts": {
+    "docs:dev": "vitepress dev docs --host 0.0.0.0 --port 5174",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs --host 0.0.0.0",
+    "lavish": "npx -y lavish-axi",
+    "lavish:design": "npx -y lavish-axi design",
+    "lavish:stop": "npx -y lavish-axi stop",
+    "lint:md": "markdownlint-cli2",
+    "check": "npm run lint:md && npm run docs:build"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "devDependencies": {
+    "markdownlint-cli2": "^0.23.0",
+    "mermaid": "^11.16.0",
+    "vitepress": "^1.6.4",
+    "vitepress-plugin-mermaid": "^2.0.17"
+  }
+}
