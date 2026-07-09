@@ -7,6 +7,11 @@
   margin: 0 auto;
 }
 
+.vp-doc figure img.proof-photo {
+  max-width: min(100%, 520px);
+  border-radius: 8px;
+}
+
 .vp-doc figcaption {
   margin-top: 14px;
   color: var(--vp-c-text-2);
